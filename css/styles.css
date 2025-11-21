@@ -457,10 +457,6 @@ color: #f4f4fd;
 }
 
 .text-social {
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #FFFFFF;
         margin-bottom: 16px;
 }
 
@@ -512,6 +508,8 @@ color: #f4f4fd;
     color: #fff;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
 }
 
 .footer-input::placeholder {
@@ -521,16 +519,21 @@ color: #f4f4fd;
 .button-subscribe {
         background-color: #4d5ae5;
         display: flex;
+        justify-content: center;
         align-items: center;
         gap: 8px;
         height: 40px;
-        color: #fff;
+        min-width: 165px;
+        color: #ffffff;
         border: none;
         border-radius: 4px;
         padding: 0 24px;
         cursor: pointer;
-        text-align: center;
-        min-width: 165px;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
 }
 
 .post {
