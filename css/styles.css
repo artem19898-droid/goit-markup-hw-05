@@ -476,6 +476,7 @@ color: #f4f4fd;
         width: 40px;
         height: 40px;
         background-color: #4d5ae5;
+        fill: #fff;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -500,6 +501,15 @@ color: #f4f4fd;
         flex-direction: column;
         gap: 16px;
         
+}
+
+.text-subscribe {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
 }
 
 .footer-input {
@@ -540,7 +550,7 @@ color: #f4f4fd;
         letter-spacing: 0.04em;
 }
 
-.post {
+.subscribe-form {
         display:flex;
         gap: 24px;
 
