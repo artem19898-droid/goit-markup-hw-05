@@ -457,7 +457,11 @@ color: #f4f4fd;
 }
 
 .text-social {
-        margin-bottom: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
 }
 
 .social-list-footer {
@@ -578,5 +582,5 @@ color: #f4f4fd;
 }
 
 .backdrop:not(.is-open) .modal {
-        transform: translate(-50%, -50%) scale:(1.5);
+        transform: translate(-50%, -50%) scale(1.5);
 }
