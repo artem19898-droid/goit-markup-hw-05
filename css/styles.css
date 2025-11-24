@@ -574,7 +574,7 @@ color: #f4f4fd;
         pointer-events: auto;
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        opacity: 1;
+         opacity: 1;
         
 }
 
@@ -686,12 +686,12 @@ color: #f4f4fd;
 }
 
 
-.visually-hidden:checked+.part-lebel {
+.visually-hidden:checked+.label-checkbox .part-lebel {
         background-color: #404bbf;
         border: none;
 }
 
-.visually-hidden:checked+.part-lebel .icon-chek {
+.visually-hidden:checked+.label-checkbox .part-lebel .icon-chek {
         fill: #F4F4FD;
 }
 
