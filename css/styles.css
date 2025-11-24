@@ -691,7 +691,7 @@ color: #f4f4fd;
         border: none;
 }
 
-.visually-hidden:checked+.label-checkbox .part-lebel .icon-chek {
+.visually-hidden:checked+label .part-lebel .icon-chek {
         fill: #F4F4FD;
 }
 
