@@ -689,13 +689,10 @@ color: #f4f4fd;
 .visually-hidden:checked+.label-checkbox .part-lebel {
         background-color: #404bbf;
         border: none;
-}
-
-.visually-hidden:checked+label .part-lebel .icon-chek {
         fill: #F4F4FD;
 }
 
-.label-checkbox {
+.visually-hidden:checked+label .part-lebel .icon-chek {
         fill: #F4F4FD;
 }
 
